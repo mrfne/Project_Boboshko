@@ -6,7 +6,6 @@ def TrianglePS(a):
     return P, S
 
 print("Расчет периметров и площадей трех равносторонних треугольников")
-print("=" * 50)
 
 for i in range(3):
     side = float(input(f"Введите длину стороны треугольника {i + 1}: "))
@@ -16,4 +15,3 @@ for i in range(3):
     print(f"  Сторона: {side}")
     print(f"  Периметр: {perimeter:.2f}")
     print(f"  Площадь: {area:.2f}")
-    print("-" * 30)
