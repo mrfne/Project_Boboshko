@@ -2,6 +2,9 @@
 # любую задачу из ПЗ №№ 1 – 9.
 # Вариант 3 https://cf.pptonline.org/files/slide/v/vRAlxeaYzgFDVC2krBdPXQtZbW5McoLJ08In6q/slide-21.jpg
 # Задание 2 - Счетчик из ПЗ №9
+import tkinter as tk
+from tkinter import ttk
+
 class CounterApp:
     def __init__(self, root):
         self.counter = 0
